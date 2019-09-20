@@ -121,9 +121,13 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="Properties\PublishProfiles\ExternalSharingBannerClassicDev - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\ExternalSharingBannerClassicDev - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\app.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\scenario1.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -132,6 +136,7 @@
     </Compile>
     <Compile Include="Pages\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>

@@ -21,6 +21,7 @@
     <WorkflowPartId>{a0875a38-a9ea-434c-83e2-2fe0645e1311}</WorkflowPartId>
     <CspkgPartId>{2a92b79d-fcd9-4309-b882-3a23089aaa46}</CspkgPartId>
     <SqlPackagePartId>{11775631-c8fc-45dc-b911-e892e590f149}</SqlPackagePartId>
+    <ActivePublishProfile>ExternalSharingBannerClassicDev - Web Deploy</ActivePublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

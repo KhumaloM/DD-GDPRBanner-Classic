@@ -7,11 +7,14 @@
      SharePointMinVersion="16.0.0.0"
 >
   <Properties>
-    <Title>DD-GDPRBanner-Classic</Title>
+    <Title>GDPR Banner Classic</Title>
     <StartPage>~remoteAppUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
   </Properties>
 
   <AppPrincipal>
-    <RemoteWebApplication ClientId="*" />
+    <RemoteWebApplication ClientId="68af117c-dc1d-4f90-921b-393306dc50fb" />
   </AppPrincipal>
+  <AppPermissionRequests>
+    <AppPermissionRequest Scope="http://sharepoint/content/tenant" Right="FullControl" />
+  </AppPermissionRequests>
 </App>
